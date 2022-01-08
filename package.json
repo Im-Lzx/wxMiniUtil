@@ -1,0 +1,24 @@
+{
+  "name": "wxminiutil",
+  "version": "1.0.0",
+  "description": "测试体验在小程序使用自定义的npm包",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebForLife/wxMiniUtil.git"
+  },
+  "keywords": [
+    "wx",
+    "ajax",
+    "request"
+  ],
+  "author": "WebForLife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebForLife/wxMiniUtil/issues"
+  },
+  "homepage": "https://github.com/WebForLife/wxMiniUtil#readme"
+}
