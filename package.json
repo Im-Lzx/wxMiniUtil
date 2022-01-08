@@ -1,5 +1,5 @@
 {
-  "name": "wxminiutil",
+  "name": "uhomes-wxminiutil",
   "version": "1.0.0",
   "description": "测试体验在小程序使用自定义的npm包",
   "main": "index.js",
