@@ -16,7 +16,7 @@ class Ajax {
      * @param {String} method 
      * @returns promise
      */
-    Request(url, data, header = {}, method = "GET") {
+    Request({ url, data, header = {}, method = "GET" }) {
 
         if (!url || typeof (url) !== "string") {
             throw Error("url empty")
@@ -48,8 +48,8 @@ class Ajax {
      * @param {Object} header 
      * @returns promise
      */
-    GET(url, data = {}, header = {}) {
-        return this.Request(url, data, header, "GET");
+    GET({ url, data = {}, header = {} }) {
+        return this.Request({ url: url, data: data, header: header, method: "GET" });
     }
 
     /**
@@ -59,8 +59,8 @@ class Ajax {
      * @param {Object} header 
      * @returns promise
      */
-    POST(url, data = {}, header = {}) {
-        return this.Request(url, data, header, "POST");
+    POST({ url, data = {}, header = {} }) {
+        return this.Request({ url: url, data: data, header: header, method: "POST" });
     }
 }
 
